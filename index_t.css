@@ -1,0 +1,84 @@
+*{
+  margin:0;
+  padding:0;
+  border:0;
+  vertical-align:baseline;  /* 文字の高さを揃える */
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+body{
+  background-color: #fffa74;
+}
+
+header{
+  background-color: white;
+  position: fixed;
+  height: 60px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.beerIcon{
+  height: 60%;
+  margin-right: 15px;
+}
+
+.header_space{
+  padding-top: 60px;
+}
+
+article{
+  background-color: gainsboro;
+  padding: 10px;
+  margin: 5px;
+}
+
+.userArea{
+  display: flex;
+  justify-content: flex-start;
+  /* align-items: center; */
+}
+
+.userArea img{
+  height: 40px;
+  margin-right: 10px;
+}
+
+.playArea{
+  /* margin: 5px 5px 5px 0; */
+  margin: 5px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.playArea img{
+  height: 40px;
+}
+
+.resArea{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.resArea img{
+  height: 25px;
+}
+
+footer{
+  background-color: white;
+  position: fixed;
+  height: 60px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  bottom: 0;
+}
+
+footer img{
+  height: 40px;
+}
